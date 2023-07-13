@@ -3,25 +3,36 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  color: white;
+  background-color: #1d1a19;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.active {
+  @apply bg-gradient-to-l from-[#F4C377] to-[#EFA348] bg-clip-text text-transparent decoration-orange-200
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.heroSection {
+  background-image: url('../../public/Hero Image.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-shrink: 0;
+  height: 700px;
+}
+
+.primary-button {
+  background-color: #f4c377;
+
+  padding: 10px, 20px, 10px, 20px;
+  border-radius: 4px;
+}
+
+.gradient-text {
+  @apply text-4xl font-bold bg-gradient-to-l from-[#F4C377] to-[#EFA348] bg-clip-text text-transparent
+}
+
+.secondary-button {
+
+  padding: 10px, 20px, 10px, 20px;
+  border-radius: 4px;
+  border: solid 1px #F4C377;
 }
