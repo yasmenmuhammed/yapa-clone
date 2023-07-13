@@ -8,7 +8,7 @@
 }
 
 .active {
-  @apply bg-gradient-to-l from-[#F4C377] to-[#EFA348] bg-clip-text text-transparent decoration-orange-200
+  @apply bg-gradient-to-l from-[#F4C377] to-[#EFA348] bg-clip-text text-transparent decoration-orange-200 underline-colored
 }
 
 .heroSection {

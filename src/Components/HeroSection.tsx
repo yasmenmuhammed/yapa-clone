@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function HeroSection() {
     return (
-        <div className="flex gap-2 xl:items-center xl: xl:bg-none heroSection w-full h-auto items-center   align-middle">
+        <div className="flex gap-2 xl:items-center  xl:bg-none heroSection w-full h-auto items-center   align-middle">
             {/* paragraph section */}
             <div className="xl:w-1/2 w-full p-9 space-y-8 ">
                 <div className="space-y-5">
@@ -30,7 +30,7 @@ function HeroSection() {
             <Image
                 src={HeroImage}
                 alt="hero image"
-                className="w-[704px] h-[700px] xl:block md:hidden"
+                className="w-[704px] h-[700px] xl:block hidden"
             />
         </div>
     );
