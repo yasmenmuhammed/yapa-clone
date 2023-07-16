@@ -13,8 +13,8 @@ function Navbar() {
             <div className='  pb-2 md:gap-8 gap-0 md:flex hidden'>
                 <Link href='/'>Home</Link>
                 <Link href='/menu'>Menu</Link>
-                <Link href='/our-store'>Our Store</Link>
-                <Link href='/know-chief'>know the chief</Link>
+                <Link href='#about'>Our Store</Link>
+                <Link href='/know-chif'>know the chif</Link>
                 <Link href='/awards'>Awards</Link>
 
             </div>

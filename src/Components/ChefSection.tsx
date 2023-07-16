@@ -1,11 +1,11 @@
 import React from "react";
 import Frame5 from "../../public/Frame 5.png";
 import Image from "next/image";
-function ChiefSection() {
+function ChefSection() {
   return (
     <div className="xl:flex-row  flex flex-col justify-center xl:gap-36 xl:p-28 p-5 items-center m-auto ">
       <div className="space-y-5 p-10 ">
-        <p className="gradient-text text-[#FAFAF9CC]">Our Chief</p>
+        <p className="gradient-text text-[#FAFAF9CC]">Our Chef</p>
         <div className="xl:p-0 p-2 md:w-3/4 w-full text-sm space-y-5">
           <p>{`Chef Shaheen, a multi-talented individual who wears many hats in the culinary world. Not only is he a celebrity chef, but he's also an architect, recipe developer, and content creator on social media. Additionally, he is the proud owner of the renowned "YABA" restaurant, which has revolutionized Iraqi cuisine.
 `}</p>
@@ -19,4 +19,4 @@ function ChiefSection() {
   );
 }
 
-export default ChiefSection;
+export default ChefSection;
