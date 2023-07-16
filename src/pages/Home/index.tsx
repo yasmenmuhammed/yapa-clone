@@ -4,6 +4,7 @@ import HeroSection from '@/Components/HeroSection'
 import AboutSection from '@/Components/AboutSection'
 import MenuSection from '@/Components/MenuSection'
 import ChefSection from '@/Components/ChefSection'
+import Footer from '@/Components/Footer'
 
 function Home() {
     return (<div className='max-w-screen-2xl m-auto'>
@@ -12,6 +13,7 @@ function Home() {
         <AboutSection />
         <ChefSection />
         <MenuSection />
+        <Footer />
     </div >
     )
 }

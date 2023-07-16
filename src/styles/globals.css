@@ -19,6 +19,10 @@
   height: 700px;
 }
 
+.footer {
+  background: lightgray 0% 0% / 100px 100px repeat, #0C0A09;
+}
+
 .primary-button {
   background-color: #f4c377;
 
